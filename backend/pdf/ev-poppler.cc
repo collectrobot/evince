@@ -2018,27 +2018,36 @@ pdf_document_find_find_text_with_options (EvDocumentFind *document_find,
 #endif
 	if (options & EV_FIND_WHOLE_WORDS_ONLY)
 		find_flags |= POPPLER_FIND_WHOLE_WORDS_ONLY;
+
+#if POPPLER_CHECK_VERSION(21, 03, 0)
+	/* Allow to match on text spanning from one line to the next */
+	find_flags |= POPPLER_FIND_MULTILINE;
+#endif
 	matches = poppler_page_find_text_with_options (poppler_page, text, (PopplerFindFlags)find_flags);
 	if (!matches)
 		return NULL;
 
 	poppler_page_get_size (poppler_page, NULL, &height);
 	for (l = matches; l && l->data; l = g_list_next (l)) {
-		PopplerRectangle *rect = (PopplerRectangle *)l->data;
-		EvRectangle      *ev_rect;
+		EvFindRectangle *ev_rect = ev_find_rectangle_new ();
 
-		ev_rect = ev_rectangle_new ();
+		PopplerRectangle *rect = (PopplerRectangle *)l->data;
 		ev_rect->x1 = rect->x1;
 		ev_rect->x2 = rect->x2;
 		/* Invert this for X-style coordinates */
 		ev_rect->y1 = height - rect->y2;
 		ev_rect->y2 = height - rect->y1;
-
+#if POPPLER_CHECK_VERSION(21, 03, 0)
+		ev_rect->next_line = poppler_rectangle_find_get_match_continued (rect);
+		ev_rect->after_hyphen = ev_rect->next_line && poppler_rectangle_find_get_ignored_hyphen (rect);
+#else
+		ev_rect->next_line = FALSE;
+		ev_rect->after_hyphen = FALSE;
+#endif
 		retval = g_list_prepend (retval, ev_rect);
 	}
 
-	g_list_foreach (matches, (GFunc)poppler_rectangle_free, NULL);
-	g_list_free (matches);
+	g_list_free_full (matches, (GDestroyNotify) poppler_rectangle_free);
 
 	return g_list_reverse (retval);
 }
