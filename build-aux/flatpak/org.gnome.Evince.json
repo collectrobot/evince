@@ -15,6 +15,7 @@
         "--socket=wayland",
         "--socket=pulseaudio",
         "--filesystem=host",
+        "--filesystem=xdg-run/gvfsd",
         "--talk-name=org.gnome.SettingsDaemon.MediaKeys",
         "--metadata=X-DConf=migrate-path=/org/gnome/evince/",
         "--talk-name=org.gtk.vfs",
