@@ -1,0 +1,4 @@
+[Evince Backend]
+Module=dvidocument
+TypeDescription=DVI Documents
+MimeType=application/x-bzdvi;application/x-dvi;application/x-ext-dvi;application/x-gzdvi;

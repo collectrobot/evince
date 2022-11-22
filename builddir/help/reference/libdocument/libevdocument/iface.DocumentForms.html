@@ -1,0 +1,864 @@
+<!--
+SPDX-FileCopyrightText: Evince Developers
+
+SPDX-License-Identifier: GPL-2-or-later
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>EvinceDocument.DocumentForms</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta charset="utf-8" />
+
+  
+  <meta property="og:type" content="website"/>
+
+  
+
+  
+  <meta property="og:title" content="EvinceDocument.DocumentForms"/>
+  <meta property="og:description" content="Reference for EvinceDocument.DocumentForms"/>
+  <meta name="twitter:title" content="EvinceDocument.DocumentForms"/>
+  <meta name="twitter:description" content="Reference for EvinceDocument.DocumentForms"/>
+
+
+  
+  <meta name="twitter:card" content="summary"/>
+
+  
+  
+  
+  
+
+  <link rel="stylesheet" href="style.css" type="text/css" />
+
+  
+
+  
+  
+  <script src="fzy.js"></script>
+  <script src="search.js"></script>
+  
+  <script src="main.js"></script>
+  <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
+<body>
+  <div id="body-wrapper" tabindex="-1">
+
+    <nav class="sidebar devhelp-hidden">
+      
+      
+      <div class="search section">
+        <form id="search-form" autocomplete="off">
+          <input id="search-input" type="text" name="do-not-autocomplete" placeholder="Click, or press 's' to search" autocomplete="off"/>
+        </form>
+      </div>
+      
+      <div class="section namespace">
+        <h3><a href="index.html">EvinceDocument</a></h3>
+        <p>API Version: 3.0</p>
+        
+        <p>Library Version: 43.alpha</p>
+        
+      </div>
+      
+<div class="section">
+  <h5>Type</h5>
+  <div class="links">
+    <a class="current" href="iface.DocumentForms.html#description">DocumentForms</a>
+  </div>
+</div>
+
+
+
+
+<div class="section">
+  <h5>Instance methods</h5>
+  <div class="links">
+  
+    <a class="method" href="method.DocumentForms.document_is_modified.html">document_is_modified</a>
+  
+    <a class="method" href="method.DocumentForms.form_field_button_get_state.html">form_field_button_get_state</a>
+  
+    <a class="method" href="method.DocumentForms.form_field_button_set_state.html">form_field_button_set_state</a>
+  
+    <a class="method" href="method.DocumentForms.form_field_choice_get_item.html">form_field_choice_get_item</a>
+  
+    <a class="method" href="method.DocumentForms.form_field_choice_get_n_items.html">form_field_choice_get_n_items</a>
+  
+    <a class="method" href="method.DocumentForms.form_field_choice_get_text.html">form_field_choice_get_text</a>
+  
+    <a class="method" href="method.DocumentForms.form_field_choice_is_item_selected.html">form_field_choice_is_item_selected</a>
+  
+    <a class="method" href="method.DocumentForms.form_field_choice_select_item.html">form_field_choice_select_item</a>
+  
+    <a class="method" href="method.DocumentForms.form_field_choice_set_text.html">form_field_choice_set_text</a>
+  
+    <a class="method" href="method.DocumentForms.form_field_choice_toggle_item.html">form_field_choice_toggle_item</a>
+  
+    <a class="method" href="method.DocumentForms.form_field_choice_unselect_all.html">form_field_choice_unselect_all</a>
+  
+    <a class="method" href="method.DocumentForms.form_field_text_get_text.html">form_field_text_get_text</a>
+  
+    <a class="method" href="method.DocumentForms.form_field_text_set_text.html">form_field_text_set_text</a>
+  
+    <a class="method" href="method.DocumentForms.get_form_fields.html">get_form_fields</a>
+  
+    <a class="method" href="method.DocumentForms.reset_form.html">reset_form</a>
+  
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="section">
+  <h5>Virtual methods</h5>
+  <div class="links">
+  
+    <a class="method" href="vfunc.DocumentForms.document_is_modified.html">document_is_modified</a>
+  
+    <a class="method" href="vfunc.DocumentForms.form_field_button_get_state.html">form_field_button_get_state</a>
+  
+    <a class="method" href="vfunc.DocumentForms.form_field_button_set_state.html">form_field_button_set_state</a>
+  
+    <a class="method" href="vfunc.DocumentForms.form_field_choice_get_item.html">form_field_choice_get_item</a>
+  
+    <a class="method" href="vfunc.DocumentForms.form_field_choice_get_n_items.html">form_field_choice_get_n_items</a>
+  
+    <a class="method" href="vfunc.DocumentForms.form_field_choice_get_text.html">form_field_choice_get_text</a>
+  
+    <a class="method" href="vfunc.DocumentForms.form_field_choice_is_item_selected.html">form_field_choice_is_item_selected</a>
+  
+    <a class="method" href="vfunc.DocumentForms.form_field_choice_select_item.html">form_field_choice_select_item</a>
+  
+    <a class="method" href="vfunc.DocumentForms.form_field_choice_set_text.html">form_field_choice_set_text</a>
+  
+    <a class="method" href="vfunc.DocumentForms.form_field_choice_toggle_item.html">form_field_choice_toggle_item</a>
+  
+    <a class="method" href="vfunc.DocumentForms.form_field_choice_unselect_all.html">form_field_choice_unselect_all</a>
+  
+    <a class="method" href="vfunc.DocumentForms.form_field_text_get_text.html">form_field_text_get_text</a>
+  
+    <a class="method" href="vfunc.DocumentForms.form_field_text_set_text.html">form_field_text_set_text</a>
+  
+    <a class="method" href="vfunc.DocumentForms.get_form_fields.html">get_form_fields</a>
+  
+    <a class="method" href="vfunc.DocumentForms.reset_form.html">reset_form</a>
+  
+  </div>
+</div>
+
+
+
+    </nav>
+
+    <button id="btn-to-top" class="hidden"><span class="up-arrow"></span></button>
+
+    
+<section id="main" class="content">
+  <header>
+    <h3>Interface</h3>
+    <h1><a href="index.html">EvinceDocument</a><span class="sep"></span>DocumentForms</h1>
+  </header>
+
+  <section>
+    <summary>
+      <div class="toggle-wrapper">
+        <h4 id="description" style="display:flex;">
+          Description
+          <a href="#description" class="anchor"></a>
+          
+        </h4>
+
+        <pre><code>interface EvinceDocument.DocumentForms : GObject.Object</code></pre>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        <div class="docblock">
+          <table class="attributes">
+            
+            
+            
+          </table>
+        </div>
+
+        
+      </div>
+    </summary>
+
+    <div class="toggle-wrapper prerequisite">
+      <h4 id="prerequisite">
+        Prerequisite
+        <a href="#prerequisite" class="anchor"></a>
+      </h4>
+
+      <div class="docblock">
+        <p>In order to implement DocumentForms, your type must inherit from
+        <a data-namespace="GObject" data-link="class.Object.html" href="javascript:void(0)" class="external"><code>GObject</code></a>.</p>
+      </div>
+    </div>
+
+    
+
+    
+
+    
+    <div class="methods toggle-wrapper">
+      <h4 id="methods">
+        Instance methods
+        <a href="#methods" class="anchor"></a>
+      </h4>
+
+      <div class="docblock">
+      
+      <div class="">
+        <h6><a href="method.DocumentForms.document_is_modified.html">ev_document_forms_document_is_modified</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6><a href="method.DocumentForms.form_field_button_get_state.html">ev_document_forms_form_field_button_get_state</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6><a href="method.DocumentForms.form_field_button_set_state.html">ev_document_forms_form_field_button_set_state</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6><a href="method.DocumentForms.form_field_choice_get_item.html">ev_document_forms_form_field_choice_get_item</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6><a href="method.DocumentForms.form_field_choice_get_n_items.html">ev_document_forms_form_field_choice_get_n_items</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6><a href="method.DocumentForms.form_field_choice_get_text.html">ev_document_forms_form_field_choice_get_text</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6><a href="method.DocumentForms.form_field_choice_is_item_selected.html">ev_document_forms_form_field_choice_is_item_selected</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6><a href="method.DocumentForms.form_field_choice_select_item.html">ev_document_forms_form_field_choice_select_item</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6><a href="method.DocumentForms.form_field_choice_set_text.html">ev_document_forms_form_field_choice_set_text</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6><a href="method.DocumentForms.form_field_choice_toggle_item.html">ev_document_forms_form_field_choice_toggle_item</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6><a href="method.DocumentForms.form_field_choice_unselect_all.html">ev_document_forms_form_field_choice_unselect_all</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6><a href="method.DocumentForms.form_field_text_get_text.html">ev_document_forms_form_field_text_get_text</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6><a href="method.DocumentForms.form_field_text_set_text.html">ev_document_forms_form_field_text_set_text</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6><a href="method.DocumentForms.get_form_fields.html">ev_document_forms_get_form_fields</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6><a href="method.DocumentForms.reset_form.html">ev_document_forms_reset_form</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      </div>
+
+    </div>
+    
+
+    
+
+    
+
+    
+    <div class="interface toggle-wrapper default-hide">
+      <h4 style="display:flex;" id="interface-struct">
+        Interface structure
+        <a href="#interface-struct" class="anchor"></a>
+        
+      </h4>
+
+      <div class="docblock">
+        <pre><code>struct EvinceDocumentDocumentFormsInterface {
+  GTypeInterface base_iface;
+  EvMappingList* (* get_form_fields) (
+    EvDocumentForms* document_forms,
+    EvPage* page
+  );
+  gboolean (* document_is_modified) (
+    EvDocumentForms* document_forms
+  );
+  gchar* (* form_field_text_get_text) (
+    EvDocumentForms* document_forms,
+    EvFormField* field
+  );
+  void (* form_field_text_set_text) (
+    EvDocumentForms* document_forms,
+    EvFormField* field,
+    const gchar* text
+  );
+  gboolean (* form_field_button_get_state) (
+    EvDocumentForms* document_forms,
+    EvFormField* field
+  );
+  void (* form_field_button_set_state) (
+    EvDocumentForms* document_forms,
+    EvFormField* field,
+    gboolean state
+  );
+  gchar* (* form_field_choice_get_item) (
+    EvDocumentForms* document_forms,
+    EvFormField* field,
+    gint index
+  );
+  gint (* form_field_choice_get_n_items) (
+    EvDocumentForms* document_forms,
+    EvFormField* field
+  );
+  gboolean (* form_field_choice_is_item_selected) (
+    EvDocumentForms* document_forms,
+    EvFormField* field,
+    gint index
+  );
+  void (* form_field_choice_select_item) (
+    EvDocumentForms* document_forms,
+    EvFormField* field,
+    gint index
+  );
+  void (* form_field_choice_toggle_item) (
+    EvDocumentForms* document_forms,
+    EvFormField* field,
+    gint index
+  );
+  void (* form_field_choice_unselect_all) (
+    EvDocumentForms* document_forms,
+    EvFormField* field
+  );
+  void (* form_field_choice_set_text) (
+    EvDocumentForms* document_forms,
+    EvFormField* field,
+    const gchar* text
+  );
+  gchar* (* form_field_choice_get_text) (
+    EvDocumentForms* document_forms,
+    EvFormField* field
+  );
+  void (* reset_form) (
+    EvDocumentForms* document_forms,
+    EvLinkAction* action
+  );
+  
+}</code></pre>
+      </div>
+
+      <div class="docblock">
+        No description available.
+      </div>
+
+      
+      <div class="docblock">
+        <h6>Interface members</h6>
+
+        <table>
+        
+        <tr>
+          <td style="vertical-align:top"><code>base_iface</code></td>
+          <td style="vertical-align:top"><pre><code>GTypeInterface</code></pre></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td><td style="vertical-align:top">No description available.</td>
+        </tr>
+        
+        <tr>
+          <td style="vertical-align:top"><code>get_form_fields</code></td>
+          <td style="vertical-align:top"><pre><code>EvMappingList* (* get_form_fields) (
+    EvDocumentForms* document_forms,
+    EvPage* page
+  )</code></pre></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td><td style="vertical-align:top">No description available.</td>
+        </tr>
+        
+        <tr>
+          <td style="vertical-align:top"><code>document_is_modified</code></td>
+          <td style="vertical-align:top"><pre><code>gboolean (* document_is_modified) (
+    EvDocumentForms* document_forms
+  )</code></pre></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td><td style="vertical-align:top">No description available.</td>
+        </tr>
+        
+        <tr>
+          <td style="vertical-align:top"><code>form_field_text_get_text</code></td>
+          <td style="vertical-align:top"><pre><code>gchar* (* form_field_text_get_text) (
+    EvDocumentForms* document_forms,
+    EvFormField* field
+  )</code></pre></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td><td style="vertical-align:top">No description available.</td>
+        </tr>
+        
+        <tr>
+          <td style="vertical-align:top"><code>form_field_text_set_text</code></td>
+          <td style="vertical-align:top"><pre><code>void (* form_field_text_set_text) (
+    EvDocumentForms* document_forms,
+    EvFormField* field,
+    const gchar* text
+  )</code></pre></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td><td style="vertical-align:top">No description available.</td>
+        </tr>
+        
+        <tr>
+          <td style="vertical-align:top"><code>form_field_button_get_state</code></td>
+          <td style="vertical-align:top"><pre><code>gboolean (* form_field_button_get_state) (
+    EvDocumentForms* document_forms,
+    EvFormField* field
+  )</code></pre></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td><td style="vertical-align:top">No description available.</td>
+        </tr>
+        
+        <tr>
+          <td style="vertical-align:top"><code>form_field_button_set_state</code></td>
+          <td style="vertical-align:top"><pre><code>void (* form_field_button_set_state) (
+    EvDocumentForms* document_forms,
+    EvFormField* field,
+    gboolean state
+  )</code></pre></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td><td style="vertical-align:top">No description available.</td>
+        </tr>
+        
+        <tr>
+          <td style="vertical-align:top"><code>form_field_choice_get_item</code></td>
+          <td style="vertical-align:top"><pre><code>gchar* (* form_field_choice_get_item) (
+    EvDocumentForms* document_forms,
+    EvFormField* field,
+    gint index
+  )</code></pre></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td><td style="vertical-align:top">No description available.</td>
+        </tr>
+        
+        <tr>
+          <td style="vertical-align:top"><code>form_field_choice_get_n_items</code></td>
+          <td style="vertical-align:top"><pre><code>gint (* form_field_choice_get_n_items) (
+    EvDocumentForms* document_forms,
+    EvFormField* field
+  )</code></pre></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td><td style="vertical-align:top">No description available.</td>
+        </tr>
+        
+        <tr>
+          <td style="vertical-align:top"><code>form_field_choice_is_item_selected</code></td>
+          <td style="vertical-align:top"><pre><code>gboolean (* form_field_choice_is_item_selected) (
+    EvDocumentForms* document_forms,
+    EvFormField* field,
+    gint index
+  )</code></pre></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td><td style="vertical-align:top">No description available.</td>
+        </tr>
+        
+        <tr>
+          <td style="vertical-align:top"><code>form_field_choice_select_item</code></td>
+          <td style="vertical-align:top"><pre><code>void (* form_field_choice_select_item) (
+    EvDocumentForms* document_forms,
+    EvFormField* field,
+    gint index
+  )</code></pre></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td><td style="vertical-align:top">No description available.</td>
+        </tr>
+        
+        <tr>
+          <td style="vertical-align:top"><code>form_field_choice_toggle_item</code></td>
+          <td style="vertical-align:top"><pre><code>void (* form_field_choice_toggle_item) (
+    EvDocumentForms* document_forms,
+    EvFormField* field,
+    gint index
+  )</code></pre></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td><td style="vertical-align:top">No description available.</td>
+        </tr>
+        
+        <tr>
+          <td style="vertical-align:top"><code>form_field_choice_unselect_all</code></td>
+          <td style="vertical-align:top"><pre><code>void (* form_field_choice_unselect_all) (
+    EvDocumentForms* document_forms,
+    EvFormField* field
+  )</code></pre></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td><td style="vertical-align:top">No description available.</td>
+        </tr>
+        
+        <tr>
+          <td style="vertical-align:top"><code>form_field_choice_set_text</code></td>
+          <td style="vertical-align:top"><pre><code>void (* form_field_choice_set_text) (
+    EvDocumentForms* document_forms,
+    EvFormField* field,
+    const gchar* text
+  )</code></pre></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td><td style="vertical-align:top">No description available.</td>
+        </tr>
+        
+        <tr>
+          <td style="vertical-align:top"><code>form_field_choice_get_text</code></td>
+          <td style="vertical-align:top"><pre><code>gchar* (* form_field_choice_get_text) (
+    EvDocumentForms* document_forms,
+    EvFormField* field
+  )</code></pre></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td><td style="vertical-align:top">No description available.</td>
+        </tr>
+        
+        <tr>
+          <td style="vertical-align:top"><code>reset_form</code></td>
+          <td style="vertical-align:top"><pre><code>void (* reset_form) (
+    EvDocumentForms* document_forms,
+    EvLinkAction* action
+  )</code></pre></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td><td style="vertical-align:top">No description available.</td>
+        </tr>
+        
+        </table>
+      </div>
+      
+    </div>
+    
+
+    
+
+    
+    <div class="toggle-wrapper methods">
+      <h4 id="virtual-methods">
+        Virtual methods
+        <a href="#virtual-methods" class="anchor"></a>
+      </h4>
+
+      <div class="docblock">
+      
+      <div class="">
+        <h6 id="vfunc-document_is_modified"><a href="vfunc.DocumentForms.document_is_modified.html">EvinceDocument.DocumentForms.document_is_modified</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6 id="vfunc-form_field_button_get_state"><a href="vfunc.DocumentForms.form_field_button_get_state.html">EvinceDocument.DocumentForms.form_field_button_get_state</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6 id="vfunc-form_field_button_set_state"><a href="vfunc.DocumentForms.form_field_button_set_state.html">EvinceDocument.DocumentForms.form_field_button_set_state</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6 id="vfunc-form_field_choice_get_item"><a href="vfunc.DocumentForms.form_field_choice_get_item.html">EvinceDocument.DocumentForms.form_field_choice_get_item</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6 id="vfunc-form_field_choice_get_n_items"><a href="vfunc.DocumentForms.form_field_choice_get_n_items.html">EvinceDocument.DocumentForms.form_field_choice_get_n_items</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6 id="vfunc-form_field_choice_get_text"><a href="vfunc.DocumentForms.form_field_choice_get_text.html">EvinceDocument.DocumentForms.form_field_choice_get_text</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6 id="vfunc-form_field_choice_is_item_selected"><a href="vfunc.DocumentForms.form_field_choice_is_item_selected.html">EvinceDocument.DocumentForms.form_field_choice_is_item_selected</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6 id="vfunc-form_field_choice_select_item"><a href="vfunc.DocumentForms.form_field_choice_select_item.html">EvinceDocument.DocumentForms.form_field_choice_select_item</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6 id="vfunc-form_field_choice_set_text"><a href="vfunc.DocumentForms.form_field_choice_set_text.html">EvinceDocument.DocumentForms.form_field_choice_set_text</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6 id="vfunc-form_field_choice_toggle_item"><a href="vfunc.DocumentForms.form_field_choice_toggle_item.html">EvinceDocument.DocumentForms.form_field_choice_toggle_item</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6 id="vfunc-form_field_choice_unselect_all"><a href="vfunc.DocumentForms.form_field_choice_unselect_all.html">EvinceDocument.DocumentForms.form_field_choice_unselect_all</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6 id="vfunc-form_field_text_get_text"><a href="vfunc.DocumentForms.form_field_text_get_text.html">EvinceDocument.DocumentForms.form_field_text_get_text</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6 id="vfunc-form_field_text_set_text"><a href="vfunc.DocumentForms.form_field_text_set_text.html">EvinceDocument.DocumentForms.form_field_text_set_text</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6 id="vfunc-get_form_fields"><a href="vfunc.DocumentForms.get_form_fields.html">EvinceDocument.DocumentForms.get_form_fields</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      <div class="">
+        <h6 id="vfunc-reset_form"><a href="vfunc.DocumentForms.reset_form.html">EvinceDocument.DocumentForms.reset_form</a></h6>
+
+        <div class="docblock">
+          No description available.
+        </div>
+
+        
+      </div>
+      
+      </div>
+    </div>
+    
+
+  </section>
+</section>
+
+
+    
+<div id="toc" class="toc">
+  <nav aria-labelledby="toc-title">
+    <p id="toc-title">Content</p>
+    <ul class="toc-list">
+      <li class="toc-list-item"><a href="#description"><span class="link-text">Description</span></a></li>
+      
+      
+
+      
+<li class="toc-list-item"><a href="#methods"><span class="link-text">Methods</span></a></li>
+
+
+      
+
+      
+
+      
+
+      
+<li class="toc-list-item"><a href="#virtual-methods"><span class="link-text">Virtual methods</span></a></li>
+
+
+    </ul>
+  </nav>
+</div>
+
+
+    <section id="search" class="content hidden"></section>
+
+    <footer>
+    
+    </footer>
+  </div>
+</body>
+</html>

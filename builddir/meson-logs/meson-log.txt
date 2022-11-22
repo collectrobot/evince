@@ -1,0 +1,1947 @@
+Build started at 2022-06-06T11:46:00.888985
+Main binary: /usr/bin/python3
+Build Options: 
+Python system: Linux
+The Meson build system
+Version: 0.53.2
+Source dir: /workspaces/evince
+Build dir: /workspaces/evince/builddir
+Build type: native build
+Project name: evince
+Project version: 43.alpha
+No CFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C compiler: ccache cc
+Is cross compiler: False.
+Sanity check compiler command line: ccache cc /workspaces/evince/builddir/meson-private/sanitycheckc.c -o /workspaces/evince/builddir/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /workspaces/evince/builddir/meson-private/sanitycheckc.exe
+C compiler for the build machine: ccache cc (gcc 9.4.0 "cc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0")
+C linker for the build machine: cc ld.bfd 2.34
+No CFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C compiler: ccache cc
+Is cross compiler: False.
+Sanity check compiler command line: ccache cc /workspaces/evince/builddir/meson-private/sanitycheckc.c -o /workspaces/evince/builddir/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /workspaces/evince/builddir/meson-private/sanitycheckc.exe
+C compiler for the host machine: ccache cc (gcc 9.4.0 "cc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0")
+C linker for the host machine: cc ld.bfd 2.34
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpy5gcb5v2
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpy5gcb5v2/testfile.c -o /workspaces/evince/builddir/meson-private/tmpy5gcb5v2/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ 
+  #include <langinfo.h>
+  int main() {
+    char c;
+    c = *((unsigned char *)  nl_langinfo(_NL_MEASUREMENT_MEASUREMENT));
+  };
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking if "Support for nl_langinfo" compiles: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpf775h_5r
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpf775h_5r/testfile.c -o /workspaces/evince/builddir/meson-private/tmpf775h_5r/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-deprecated-declarations -Wdeprecated-declarations 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-deprecated-declarations -Wdeprecated-declarations: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmp38u3f_hs
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmp38u3f_hs/testfile.c -o /workspaces/evince/builddir/meson-private/tmp38u3f_hs/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wnested-externs 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wnested-externs: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmp0bhbhd8b
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmp0bhbhd8b/testfile.c -o /workspaces/evince/builddir/meson-private/tmp0bhbhd8b/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-prototypes 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpgw6x9pla
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpgw6x9pla/testfile.c -o /workspaces/evince/builddir/meson-private/tmpgw6x9pla/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=format=2 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=format=2: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpvyhr9chk
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpvyhr9chk/testfile.c -o /workspaces/evince/builddir/meson-private/tmpvyhr9chk/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=implicit-function-declaration: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmp77evx0o4
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmp77evx0o4/testfile.c -o /workspaces/evince/builddir/meson-private/tmp77evx0o4/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=init-self 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=init-self: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpjtrfnvo3
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpjtrfnvo3/testfile.c -o /workspaces/evince/builddir/meson-private/tmpjtrfnvo3/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=missing-include-dirs 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=missing-include-dirs: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpgcgbtfgs
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpgcgbtfgs/testfile.c -o /workspaces/evince/builddir/meson-private/tmpgcgbtfgs/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=missing-prototypes 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=missing-prototypes: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmptdv13ljn
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmptdv13ljn/testfile.c -o /workspaces/evince/builddir/meson-private/tmptdv13ljn/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=pointer-arith 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=pointer-arith: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmp60wc_bc_
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmp60wc_bc_/testfile.c -o /workspaces/evince/builddir/meson-private/tmp60wc_bc_/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=return-type 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=return-type: YES 
+Pkg-config binary for MachineChoice.HOST is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default pkg-config fallback at pkg-config
+Trying pkg-config binary pkg-config for machine MachineChoice.HOST at ['/usr/bin/pkg-config']
+Found pkg-config: /usr/bin/pkg-config (0.29.1)
+Determining dependency 'gdk-pixbuf-2.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gdk-pixbuf-2.0` -> 0
+2.40.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags gdk-pixbuf-2.0` -> 0
+-pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gdk-pixbuf-2.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gdk-pixbuf-2.0 --libs` -> 0
+-lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpcvifa5p9
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpcvifa5p9/testfile.c -o /workspaces/evince/builddir/meson-private/tmpcvifa5p9/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmp3779ja8f
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmp3779ja8f/testfile.c -o /workspaces/evince/builddir/meson-private/tmp3779ja8f/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/9/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/9/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/9/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Run-time dependency gdk-pixbuf-2.0 found: YES 2.40.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=gdk_pixbuf_binary_version gdk-pixbuf-2.0` -> 0
+2.10.0
+Got pkgconfig variable gdk_pixbuf_binary_version : 2.10.0
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gio-2.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gio-2.0` -> 0
+2.64.6
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags gio-2.0` -> 0
+-pthread -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gio-2.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgio-2.0 -lgobject-2.0 -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gio-2.0 --libs` -> 0
+-lgio-2.0 -lgobject-2.0 -lglib-2.0
+Run-time dependency gio-2.0 found: YES 2.64.6
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'glib-2.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion glib-2.0` -> 0
+2.64.6
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags glib-2.0` -> 0
+-I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config glib-2.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config glib-2.0 --libs` -> 0
+-lglib-2.0
+Run-time dependency glib-2.0 found: YES 2.64.6
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gmodule-2.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gmodule-2.0` -> 0
+2.64.6
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags gmodule-2.0` -> 0
+-pthread -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gmodule-2.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gmodule-2.0 --libs` -> 0
+-Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0
+Run-time dependency gmodule-2.0 found: YES 2.64.6
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gmodule-no-export-2.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gmodule-no-export-2.0` -> 0
+2.64.6
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags gmodule-no-export-2.0` -> 0
+-pthread -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gmodule-no-export-2.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgmodule-2.0 -pthread -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gmodule-no-export-2.0 --libs` -> 0
+-lgmodule-2.0 -pthread -lglib-2.0
+Run-time dependency gmodule-no-export-2.0 found: YES 2.64.6
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gtk+-3.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gtk+-3.0` -> 0
+3.24.20
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags gtk+-3.0` -> 0
+-pthread -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gtk+-3.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gtk+-3.0 --libs` -> 0
+-lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+Run-time dependency gtk+-3.0 found: YES 3.24.20
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gthread-2.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gthread-2.0` -> 0
+2.64.6
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags gthread-2.0` -> 0
+-pthread -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gthread-2.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgthread-2.0 -pthread -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gthread-2.0 --libs` -> 0
+-lgthread-2.0 -pthread -lglib-2.0
+Run-time dependency gthread-2.0 found: YES 2.64.6
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libhandy-1' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libhandy-1` -> 1
+
+CMake binary for MachineChoice.HOST is not cached
+CMake binary missing from cross or native file, or env var undefined.
+Trying a default CMake fallback at cmake
+Trying CMake binary cmake for machine MachineChoice.HOST at ['/usr/bin/cmake']
+Found CMake: /usr/bin/cmake (3.16.3)
+Extracting basic cmake information
+Try CMake generator: auto
+No CXXFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Failed to find a fortran compiler for CMake. This might cause CMake to fail.
+Called `/usr/bin/cmake --trace-expand .` in /workspaces/evince/builddir/meson-private/cmake_libhandy-1 -> 0
+  -- Module search paths:    ['/', '/opt', '/usr', '/usr/local']
+  -- CMake root:             /usr/share/cmake-3.16
+  -- CMake architectures:    ['x86_64-linux-gnu']
+  -- CMake lib search paths: ['lib', 'lib32', 'lib64', 'libx32', 'share', 'lib/x86_64-linux-gnu']
+Preliminary CMake check failed. Aborting.
+Run-time dependency libhandy-1 found: NO (tried pkgconfig and cmake)
+Looking for a fallback subproject for the dependency libhandy-1
+
+Executing subproject libhandy method meson 
+
+Project name: libhandy
+Project version: 1.5.0
+C compiler for the build machine: ccache cc (gcc 9.4.0 "cc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0")
+C linker for the build machine: cc ld.bfd 2.34
+C compiler for the host machine: ccache cc (gcc 9.4.0 "cc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0")
+C linker for the host machine: cc ld.bfd 2.34
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpv3yijmvt
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpv3yijmvt/testfile.c -o /workspaces/evince/builddir/meson-private/tmpv3yijmvt/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wcast-align 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wcast-align: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpjdfeflaj
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpjdfeflaj/testfile.c -o /workspaces/evince/builddir/meson-private/tmpjdfeflaj/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wdate-time 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wdate-time: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmp182r32m5
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmp182r32m5/testfile.c -o /workspaces/evince/builddir/meson-private/tmp182r32m5/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wdeclaration-after-statement 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wdeclaration-after-statement: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmp7nw4feu2
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmp7nw4feu2/testfile.c -o /workspaces/evince/builddir/meson-private/tmp7nw4feu2/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=format-security -Werror=format=2 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=format-security -Werror=format=2: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmp24mp1_5n
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmp24mp1_5n/testfile.c -o /workspaces/evince/builddir/meson-private/tmp24mp1_5n/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wendif-labels 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wendif-labels: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmp03dnbfp9
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmp03dnbfp9/testfile.c -o /workspaces/evince/builddir/meson-private/tmp03dnbfp9/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=incompatible-pointer-types 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=incompatible-pointer-types: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpu1b3cqvd
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpu1b3cqvd/testfile.c -o /workspaces/evince/builddir/meson-private/tmpu1b3cqvd/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=missing-declarations 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=missing-declarations: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpwryjrmco
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpwryjrmco/testfile.c -o /workspaces/evince/builddir/meson-private/tmpwryjrmco/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=overflow 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=overflow: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmprd8lpr94
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmprd8lpr94/testfile.c -o /workspaces/evince/builddir/meson-private/tmprd8lpr94/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=return-type 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=return-type: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmp2ysv9chy
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmp2ysv9chy/testfile.c -o /workspaces/evince/builddir/meson-private/tmp2ysv9chy/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=shift-count-overflow 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=shift-count-overflow: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpuby63ajd
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpuby63ajd/testfile.c -o /workspaces/evince/builddir/meson-private/tmpuby63ajd/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=shift-overflow=2 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=shift-overflow=2: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmp5hvayu2y
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmp5hvayu2y/testfile.c -o /workspaces/evince/builddir/meson-private/tmp5hvayu2y/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-fallthrough=3 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=implicit-fallthrough=3: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpwp80ovl1
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpwp80ovl1/testfile.c -o /workspaces/evince/builddir/meson-private/tmpwp80ovl1/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wformat-nonliteral 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wformat-nonliteral: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmprn6kv3wx
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmprn6kv3wx/testfile.c -o /workspaces/evince/builddir/meson-private/tmprn6kv3wx/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wformat-security 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wformat-security: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmps6a9fs4f
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmps6a9fs4f/testfile.c -o /workspaces/evince/builddir/meson-private/tmps6a9fs4f/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Winit-self 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Winit-self: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpwk04idoo
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpwk04idoo/testfile.c -o /workspaces/evince/builddir/meson-private/tmpwk04idoo/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wmaybe-uninitialized 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmaybe-uninitialized: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpqlkqqxg3
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpqlkqqxg3/testfile.c -o /workspaces/evince/builddir/meson-private/tmpqlkqqxg3/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-field-initializers 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-field-initializers: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpc_ipv_66
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpc_ipv_66/testfile.c -o /workspaces/evince/builddir/meson-private/tmpc_ipv_66/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-include-dirs 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-include-dirs: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpz4a8n685
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpz4a8n685/testfile.c -o /workspaces/evince/builddir/meson-private/tmpz4a8n685/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-noreturn 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-noreturn: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpph8k_a7p
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpph8k_a7p/testfile.c -o /workspaces/evince/builddir/meson-private/tmpph8k_a7p/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wnested-externs 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wnested-externs: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpts5t5egt
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpts5t5egt/testfile.c -o /workspaces/evince/builddir/meson-private/tmpts5t5egt/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-field-initializers -Wmissing-field-initializers 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-missing-field-initializers -Wmissing-field-initializers: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpqgk5eym1
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpqgk5eym1/testfile.c -o /workspaces/evince/builddir/meson-private/tmpqgk5eym1/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-sign-compare -Wsign-compare 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-sign-compare -Wsign-compare: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpmmbdpedg
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpmmbdpedg/testfile.c -o /workspaces/evince/builddir/meson-private/tmpmmbdpedg/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-strict-aliasing -Wstrict-aliasing 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-strict-aliasing -Wstrict-aliasing: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmp4bjd6xt4
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmp4bjd6xt4/testfile.c -o /workspaces/evince/builddir/meson-private/tmp4bjd6xt4/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-parameter -Wunused-parameter 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter -Wunused-parameter: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpob_cflct
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpob_cflct/testfile.c -o /workspaces/evince/builddir/meson-private/tmpob_cflct/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wold-style-definition 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmp3mfdj9me
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmp3mfdj9me/testfile.c -o /workspaces/evince/builddir/meson-private/tmp3mfdj9me/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wpointer-arith 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpdc_3396f
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpdc_3396f/testfile.c -o /workspaces/evince/builddir/meson-private/tmpdc_3396f/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wredundant-decls 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wredundant-decls: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmp4jb8rsq9
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmp4jb8rsq9/testfile.c -o /workspaces/evince/builddir/meson-private/tmp4jb8rsq9/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wshadow 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wshadow: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpwuf5qr32
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpwuf5qr32/testfile.c -o /workspaces/evince/builddir/meson-private/tmpwuf5qr32/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-prototypes 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpgozlw80i
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpgozlw80i/testfile.c -o /workspaces/evince/builddir/meson-private/tmpgozlw80i/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wswitch-default 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wswitch-default: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmp4u4ey5n4
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmp4u4ey5n4/testfile.c -o /workspaces/evince/builddir/meson-private/tmp4u4ey5n4/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wswitch-enum 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wswitch-enum: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpruunk_hg
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpruunk_hg/testfile.c -o /workspaces/evince/builddir/meson-private/tmpruunk_hg/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wtype-limits 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wtype-limits: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpshkswr84
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpshkswr84/testfile.c -o /workspaces/evince/builddir/meson-private/tmpshkswr84/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wundef 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wundef: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpar23mt6n
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpar23mt6n/testfile.c -o /workspaces/evince/builddir/meson-private/tmpar23mt6n/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wunused-function 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wunused-function: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpasxds8xp
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpasxds8xp/testfile.c -o /workspaces/evince/builddir/meson-private/tmpasxds8xp/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fstack-protector-strong 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -fstack-protector-strong: YES 
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gladeui-2.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gladeui-2.0` -> 1
+
+CMake binary for MachineChoice.HOST is cached.
+Preliminary CMake check failed. Aborting.
+Run-time dependency gladeui-2.0 found: NO (tried pkgconfig and cmake)
+Pkg-config binary for MachineChoice.BUILD is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default pkg-config fallback at pkg-config
+Trying pkg-config binary pkg-config for machine MachineChoice.BUILD at ['/usr/bin/pkg-config']
+Found pkg-config: /usr/bin/pkg-config (0.29.1)
+Determining dependency 'glib-2.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion glib-2.0` -> 0
+2.64.6
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags glib-2.0` -> 0
+-I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config glib-2.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config glib-2.0 --libs` -> 0
+-lglib-2.0
+Configuring hdy-version.h using configuration
+Program sed found: YES (/usr/bin/sed)
+Program gen-public-types.sh found: YES (/bin/sh /workspaces/evince/subprojects/libhandy/src/gen-public-types.sh)
+Dependency gio-2.0 found: YES 2.64.6 (cached)
+Dependency gtk+-3.0 found: YES 3.24.20 (cached)
+Dependency glib-2.0 found: YES 2.64.6 (cached)
+Dependency gmodule-2.0 found: YES 2.64.6 (cached)
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'fribidi' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion fribidi` -> 0
+1.0.8
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags fribidi` -> 0
+-I/usr/include/fribidi
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config fribidi --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lfribidi
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config fribidi --libs` -> 0
+-lfribidi
+Run-time dependency fribidi found: YES 1.0.8
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpq9bb9bhh
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpq9bb9bhh/testfile.c -o /workspaces/evince/builddir/meson-private/tmpq9bb9bhh/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lm -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library m found: YES
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpcy6q_hur
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpcy6q_hur/testfile.c -o /workspaces/evince/builddir/meson-private/tmpcy6q_hur/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lrt -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library rt found: YES
+Configuring config.h using configuration
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmp6tmbx5f1
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmp6tmbx5f1/testfile.c -o /workspaces/evince/builddir/meson-private/tmp6tmbx5f1/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--version-script,/workspaces/evince/libhandy.syms 
+
+Code:
+ int main() { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: cannot open linker script file /workspaces/evince/libhandy.syms: No such file or directory
+collect2: error: ld returned 1 exit status
+
+Checking if "ld_supports_version_script" links: NO 
+Configuring run using configuration
+Message: 
+------
+Handy 500 (1)
+
+             Tests: false
+          Examples: true
+     Documentation: false
+     Introspection: false
+              Vapi: false
+     Glade Catalog: false
+------
+
+Build targets in project: 14
+Subproject libhandy finished.
+
+Dependency libhandy-1 from subproject subprojects/libhandy found: YES 1.5.0
+Library m found: YES
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gi-docgen' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gi-docgen` -> 1
+
+CMake binary for MachineChoice.HOST is cached.
+Preliminary CMake check failed. Aborting.
+Run-time dependency gi-docgen found: NO (tried pkgconfig and cmake)
+Looking for a fallback subproject for the dependency gi-docgen
+
+Executing subproject gi-docgen method meson 
+
+Project name: gi-docgen
+Project version: 2022.2
+Program python3 (jinja2, markdown, markupsafe, pygments, toml, typogrify) found: YES (/home/codespace/.python/current/bin/python3) modules: jinja2, markdown, markupsafe, pygments, toml, typogrify
+Program gi-docgen.py found: YES (/workspaces/evince/subprojects/gi-docgen/gi-docgen.py)
+Configuring gi-docgen.pc using configuration
+Build targets in project: 14
+Subproject gi-docgen finished.
+
+Dependency gi-docgen from subproject subprojects/gi-docgen found: YES 2022.2
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'cairo' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion cairo` -> 0
+1.16.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags cairo` -> 0
+-I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config cairo --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lcairo
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config cairo --libs` -> 0
+-lcairo
+Run-time dependency cairo found: YES 1.16.0
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpgdlqp7eh
+Command line:  ccache cc -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 /workspaces/evince/builddir/meson-private/tmpgdlqp7eh/testfile.c -o /workspaces/evince/builddir/meson-private/tmpgdlqp7eh/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group /usr/lib/x86_64-linux-gnu/libcairo.so -Wl,--end-group 
+
+Code:
+ 
+        #define cairo_surface_set_device_scale meson_disable_define_of_cairo_surface_set_device_scale
+        
+        #include <limits.h>
+        #undef cairo_surface_set_device_scale
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char cairo_surface_set_device_scale (void);
+        
+        #if defined __stub_cairo_surface_set_device_scale || defined __stub___cairo_surface_set_device_scale
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return cairo_surface_set_device_scale ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "cairo_surface_set_device_scale" with dependency cairo: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmplnvx3s_1
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmplnvx3s_1/testfile.c -o /workspaces/evince/builddir/meson-private/tmplnvx3s_1/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lz -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library z found: YES
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmp5fg8im31
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmp5fg8im31/testfile.c -o /workspaces/evince/builddir/meson-private/tmp5fg8im31/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lz -Wl,--end-group 
+
+Code:
+ 
+        #define inflate meson_disable_define_of_inflate
+        
+        #include <limits.h>
+        #undef inflate
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char inflate (void);
+        
+        #if defined __stub_inflate || defined __stub___inflate
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return inflate ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "inflate" with dependency -lz: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpuw8ozis7
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpuw8ozis7/testfile.c -o /workspaces/evince/builddir/meson-private/tmpuw8ozis7/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lz -Wl,--end-group 
+
+Code:
+ 
+        #define crc32 meson_disable_define_of_crc32
+        
+        #include <limits.h>
+        #undef crc32
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char crc32 (void);
+        
+        #if defined __stub_crc32 || defined __stub___crc32
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return crc32 ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "crc32" with dependency -lz: YES 
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'adwaita-icon-theme' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion adwaita-icon-theme` -> 0
+3.36.1
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags adwaita-icon-theme` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config adwaita-icon-theme --libs` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config adwaita-icon-theme --libs` -> 0
+
+Run-time dependency adwaita-icon-theme found: YES 3.36.1
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libnautilus-extension' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libnautilus-extension` -> 0
+3.36.3
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags libnautilus-extension` -> 0
+-pthread -I/usr/include/nautilus -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config libnautilus-extension --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lnautilus-extension -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config libnautilus-extension --libs` -> 0
+-lnautilus-extension -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+Run-time dependency libnautilus-extension found: YES 3.36.3
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --define-variable=libdir=/usr/local/lib/x86_64-linux-gnu --variable=extensiondir libnautilus-extension` -> 0
+/usr/local/lib/x86_64-linux-gnu/nautilus/extensions-3.0
+Got pkgconfig variable extensiondir : /usr/local/lib/x86_64-linux-gnu/nautilus/extensions-3.0
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'dbus-1' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion dbus-1` -> 0
+1.12.16
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags dbus-1` -> 0
+-I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config dbus-1 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -ldbus-1
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config dbus-1 --libs` -> 0
+-ldbus-1
+Run-time dependency dbus-1 found: YES 1.12.16
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --define-variable=datadir=/usr/local/share --variable=session_bus_services_dir dbus-1` -> 0
+/usr/local/share/dbus-1/services
+Got pkgconfig variable session_bus_services_dir : /usr/local/share/dbus-1/services
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libsecret-1' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libsecret-1` -> 0
+0.20.4
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags libsecret-1` -> 0
+-pthread -I/usr/include/libsecret-1 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config libsecret-1 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lsecret-1 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config libsecret-1 --libs` -> 0
+-lsecret-1 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+Run-time dependency libsecret-1 found: YES 0.20.4
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gtk+-unix-print-3.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gtk+-unix-print-3.0` -> 0
+3.24.20
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags gtk+-unix-print-3.0` -> 0
+-pthread -I/usr/include/gtk-3.0/unix-print -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gtk+-unix-print-3.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gtk+-unix-print-3.0 --libs` -> 0
+-lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+Run-time dependency gtk+-unix-print-3.0 found: YES 3.24.20
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gio-unix-2.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gio-unix-2.0` -> 0
+2.64.6
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags gio-unix-2.0` -> 0
+-pthread -I/usr/include/gio-unix-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gio-unix-2.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgio-2.0 -lgobject-2.0 -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gio-unix-2.0 --libs` -> 0
+-lgio-2.0 -lgobject-2.0 -lglib-2.0
+Run-time dependency gio-unix-2.0 found: YES 2.64.6
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gobject-introspection-1.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gobject-introspection-1.0` -> 0
+1.64.1
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags gobject-introspection-1.0` -> 0
+-pthread -I/usr/include/gobject-introspection-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gobject-introspection-1.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgirepository-1.0 -lgobject-2.0 -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gobject-introspection-1.0 --libs` -> 0
+-lgirepository-1.0 -lgobject-2.0 -lglib-2.0
+Run-time dependency gobject-introspection-1.0 found: YES 1.64.1
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gnome-desktop-3.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gnome-desktop-3.0` -> 0
+3.36.8
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags gnome-desktop-3.0` -> 0
+-pthread -I/usr/include/gnome-desktop-3.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gsettings-desktop-schemas
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gnome-desktop-3.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgnome-desktop-3 -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gnome-desktop-3.0 --libs` -> 0
+-lgnome-desktop-3 -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+Run-time dependency gnome-desktop-3.0 found: YES 3.36.8
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gstreamer-base-1.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gstreamer-base-1.0` -> 0
+1.16.2
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags gstreamer-base-1.0` -> 0
+-pthread -I/usr/include/gstreamer-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gstreamer-base-1.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgstbase-1.0 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gstreamer-base-1.0 --libs` -> 0
+-lgstbase-1.0 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0
+Run-time dependency gstreamer-base-1.0 found: YES 1.16.2
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gstreamer-1.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gstreamer-1.0` -> 0
+1.16.2
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags gstreamer-1.0` -> 0
+-pthread -I/usr/include/gstreamer-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gstreamer-1.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gstreamer-1.0 --libs` -> 0
+-lgstreamer-1.0 -lgobject-2.0 -lglib-2.0
+Run-time dependency gstreamer-1.0 found: YES 1.16.2
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gstreamer-video-1.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gstreamer-video-1.0` -> 0
+1.16.2
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags gstreamer-video-1.0` -> 0
+-pthread -I/usr/include/gstreamer-1.0 -I/usr/include/orc-0.4 -I/usr/include/gstreamer-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gstreamer-video-1.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgstvideo-1.0 -lgstbase-1.0 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gstreamer-video-1.0 --libs` -> 0
+-lgstvideo-1.0 -lgstbase-1.0 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0
+Run-time dependency gstreamer-video-1.0 found: YES 1.16.2
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gspell-1' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gspell-1` -> 0
+1.8.3
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags gspell-1` -> 0
+-pthread -I/usr/include/gspell-1 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/enchant-2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gspell-1 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgspell-1 -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lenchant-2
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gspell-1 --libs` -> 0
+-lgspell-1 -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lenchant-2
+Run-time dependency gspell-1 found: YES 1.8.3
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gsettings-desktop-schemas' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gsettings-desktop-schemas` -> 0
+3.36.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags gsettings-desktop-schemas` -> 0
+-I/usr/include/gsettings-desktop-schemas
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gsettings-desktop-schemas --libs` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gsettings-desktop-schemas --libs` -> 0
+
+Run-time dependency gsettings-desktop-schemas found: YES 3.36.0
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'synctex' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion synctex` -> 0
+2.0.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags synctex` -> 0
+-I/usr/include/synctex
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config synctex --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lsynctex
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config synctex --libs` -> 0
+-lsynctex
+Run-time dependency synctex found: YES 2.0.0
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libspectre' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libspectre` -> 0
+0.2.8
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags libspectre` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config libspectre --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lspectre
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config libspectre --libs` -> 0
+-lspectre
+Run-time dependency libspectre found: YES 0.2.8
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libarchive' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libarchive` -> 0
+3.6.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags libarchive` -> 0
+-I/usr/local/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config libarchive --libs` -> 0
+-L/usr/local/lib -larchive
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config libarchive --libs` -> 0
+-L/usr/local/lib -larchive
+Run-time dependency libarchive found: YES 3.6.0
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'ddjvuapi' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion ddjvuapi` -> 0
+3.5.27
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags ddjvuapi` -> 0
+-pthread
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config ddjvuapi --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -ldjvulibre
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config ddjvuapi --libs` -> 0
+-ldjvulibre
+Run-time dependency ddjvuapi found: YES 3.5.27
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpbk1a_ckj
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpbk1a_ckj/testfile.c -o /workspaces/evince/builddir/meson-private/tmpbk1a_ckj/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lkpathsea -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library kpathsea found: YES
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpw_8rbvgi
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpw_8rbvgi/testfile.c -o /workspaces/evince/builddir/meson-private/tmpw_8rbvgi/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lkpathsea -Wl,--end-group 
+
+Code:
+ 
+        #define kpse_init_prog meson_disable_define_of_kpse_init_prog
+        
+        #include <limits.h>
+        #undef kpse_init_prog
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char kpse_init_prog (void);
+        
+        #if defined __stub_kpse_init_prog || defined __stub___kpse_init_prog
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return kpse_init_prog ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "kpse_init_prog" with dependency -lkpathsea: YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmp443y_ec3
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmp443y_ec3/testfile.c -o /workspaces/evince/builddir/meson-private/tmp443y_ec3/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<sys/types.h>
+        void bar(void) {
+            sizeof(size_t);
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for type "size_t" : YES 
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmphcl_82_p
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmphcl_82_p/testfile.c -o /workspaces/evince/builddir/meson-private/tmphcl_82_p/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(short)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+2
+
+Program stderr:
+
+
+Checking for size of "short" : 2
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpegboy2ew
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpegboy2ew/testfile.c -o /workspaces/evince/builddir/meson-private/tmpegboy2ew/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(int)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+4
+
+Program stderr:
+
+
+Checking for size of "int" : 4
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmp869cyp8g
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmp869cyp8g/testfile.c -o /workspaces/evince/builddir/meson-private/tmp869cyp8g/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(long)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Checking for size of "long" : 8
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpnk6w76xl
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpnk6w76xl/testfile.c -o /workspaces/evince/builddir/meson-private/tmpnk6w76xl/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(long long)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Checking for size of "long long" : 8
+Running compile:
+Working directory:  /workspaces/evince/builddir/meson-private/tmpd9kbbzen
+Command line:  ccache cc /workspaces/evince/builddir/meson-private/tmpd9kbbzen/testfile.c -o /workspaces/evince/builddir/meson-private/tmpd9kbbzen/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void  *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Checking for size of "void  *" : 8
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'poppler-glib' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion poppler-glib` -> 0
+22.02.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags poppler-glib` -> 0
+-I/usr/local/include/poppler/glib -I/usr/local/include/poppler -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config poppler-glib --libs` -> 0
+-L/usr/local/lib -L/usr/lib/x86_64-linux-gnu -lpoppler-glib -lgobject-2.0 -lglib-2.0 -lcairo
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config poppler-glib --libs` -> 0
+-L/usr/local/lib -lpoppler-glib -lgobject-2.0 -lglib-2.0 -lcairo
+Run-time dependency poppler-glib found: YES 22.02.0
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libxml-2.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libxml-2.0` -> 0
+2.9.10
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags libxml-2.0` -> 0
+-I/usr/include/libxml2
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config libxml-2.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lxml2
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config libxml-2.0 --libs` -> 0
+-lxml2
+Run-time dependency libxml-2.0 found: YES 2.9.10
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'cairo-pdf' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion cairo-pdf` -> 0
+1.16.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags cairo-pdf` -> 0
+-I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config cairo-pdf --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lz -lcairo
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config cairo-pdf --libs` -> 0
+-lz -lcairo
+Run-time dependency cairo-pdf found: YES 1.16.0
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'cairo-ps' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion cairo-ps` -> 0
+1.16.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags cairo-ps` -> 0
+-I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config cairo-ps --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lz -lcairo
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config cairo-ps --libs` -> 0
+-lz -lcairo
+Run-time dependency cairo-ps found: YES 1.16.0
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libtiff-4' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libtiff-4` -> 0
+4.1.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags libtiff-4` -> 0
+-I/usr/include/x86_64-linux-gnu
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config libtiff-4 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -ltiff
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config libtiff-4 --libs` -> 0
+-ltiff
+Run-time dependency libtiff-4 found: YES 4.1.0
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libgxps' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libgxps` -> 0
+0.3.1
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags libgxps` -> 0
+-pthread -I/usr/local/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config libgxps --libs` -> 0
+-L/usr/local/lib -L/usr/lib/x86_64-linux-gnu -lgxps -lgio-2.0 -lgobject-2.0 -lglib-2.0 -larchive -lcairo
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config libgxps --libs` -> 0
+-L/usr/local/lib -lgxps -lgio-2.0 -lgobject-2.0 -lglib-2.0 -larchive -lcairo
+Run-time dependency libgxps found: YES 0.3.1
+Configuring ev-version.h using configuration
+Pkg-config binary for MachineChoice.BUILD is cached.
+Determining dependency 'gobject-introspection-1.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gobject-introspection-1.0` -> 0
+1.64.1
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags gobject-introspection-1.0` -> 0
+-pthread -I/usr/include/gobject-introspection-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gobject-introspection-1.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgirepository-1.0 -lgobject-2.0 -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gobject-introspection-1.0 --libs` -> 0
+-lgirepository-1.0 -lgobject-2.0 -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=girdir cairo` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --print-variables cairo` -> 0
+exec_prefix
+includedir
+libdir
+pcfiledir
+prefix
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=girdir gdk-pixbuf-2.0` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --print-variables gdk-pixbuf-2.0` -> 0
+bindir
+gdk_pixbuf_binary_version
+gdk_pixbuf_binarydir
+gdk_pixbuf_cache_file
+gdk_pixbuf_csource
+gdk_pixbuf_moduledir
+gdk_pixbuf_pixdata
+gdk_pixbuf_query_loaders
+includedir
+libdir
+pcfiledir
+prefix
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=girdir gio-2.0` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --print-variables gio-2.0` -> 0
+bindir
+datadir
+gdbus
+gdbus_codegen
+gio
+gio_querymodules
+giomoduledir
+glib_compile_resources
+glib_compile_schemas
+gresource
+gsettings
+includedir
+libdir
+pcfiledir
+prefix
+schemasdir
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=girdir glib-2.0` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --print-variables glib-2.0` -> 0
+bindir
+glib_genmarshal
+glib_mkenums
+gobject_query
+includedir
+libdir
+pcfiledir
+prefix
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=girdir gtk+-3.0` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --print-variables gtk+-3.0` -> 0
+exec_prefix
+gtk_binary_version
+gtk_host
+includedir
+libdir
+pcfiledir
+prefix
+targets
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=girdir gmodule-2.0` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --print-variables gmodule-2.0` -> 0
+gmodule_supported
+includedir
+libdir
+pcfiledir
+prefix
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=girdir gmodule-no-export-2.0` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --print-variables gmodule-no-export-2.0` -> 0
+gmodule_supported
+includedir
+libdir
+pcfiledir
+prefix
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=girdir libxml-2.0` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --print-variables libxml-2.0` -> 0
+exec_prefix
+includedir
+libdir
+modules
+pcfiledir
+prefix
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=girdir synctex` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --print-variables synctex` -> 0
+exec_prefix
+includedir
+libdir
+pcfiledir
+prefix
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Configuring comicsdocument.evince-backenddesktop.in using configuration
+Configuring evince-comicsdocument.metainfo.xml.in using configuration
+Configuring djvudocument.evince-backenddesktop.in using configuration
+Configuring evince-djvudocument.metainfo.xml.in using configuration
+Configuring dvidocument.evince-backenddesktop.in using configuration
+Configuring evince-dvidocument.metainfo.xml.in using configuration
+Configuring pdfdocument.evince-backenddesktop.in using configuration
+Configuring evince-pdfdocument.metainfo.xml.in using configuration
+Configuring tiffdocument.evince-backenddesktop.in using configuration
+Configuring evince-tiffdocument.metainfo.xml.in using configuration
+Configuring xpsdocument.evince-backenddesktop.in using configuration
+Configuring evince-xpsdocument.metainfo.xml.in using configuration
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=girdir gspell-1` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --print-variables gspell-1` -> 0
+exec_prefix
+includedir
+libdir
+pcfiledir
+prefix
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=girdir gstreamer-base-1.0` -> 0
+/usr/share/gir-1.0
+Got pkgconfig variable girdir : /usr/share/gir-1.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=girdir gstreamer-1.0` -> 0
+/usr/share/gir-1.0
+Got pkgconfig variable girdir : /usr/share/gir-1.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=girdir gstreamer-video-1.0` -> 0
+/usr/share/gir-1.0
+Got pkgconfig variable girdir : /usr/share/gir-1.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=girdir gtk+-unix-print-3.0` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --print-variables gtk+-unix-print-3.0` -> 0
+exec_prefix
+gtk_binary_version
+gtk_host
+includedir
+libdir
+pcfiledir
+prefix
+targets
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=girdir gthread-2.0` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --print-variables gthread-2.0` -> 0
+includedir
+libdir
+pcfiledir
+prefix
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : /usr/share/gir-1.0
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : /usr/share/gir-1.0
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : /usr/share/gir-1.0
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=prefix glib-2.0` -> 0
+/usr
+Got pkgconfig variable prefix : /usr
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=prefix gtk+-3.0` -> 0
+/usr
+Got pkgconfig variable prefix : /usr
+Program gi-docgen found: YES (overridden: /workspaces/evince/subprojects/gi-docgen/gi-docgen.py)
+Configuring libevdocument.toml using configuration
+Configuring libevview.toml using configuration
+Configuring evince.thumbnailer using configuration
+Configuring org.gnome.Evince.desktop.in using configuration
+Configuring org.gnome.Evince-previewer.desktop.in using configuration
+Configuring org.gnome.evince.Daemon.service using configuration
+Configuring org.gnome.Evince.service using configuration
+Configuring config.h using configuration
+Program meson_post_install.py found: YES (/usr/bin/python3 /workspaces/evince/meson_post_install.py)
+Build targets in project: 74
+
+evince 43.alpha
+
+  General
+    Platform...................: gnome
+    Debug mode.................: YES
+
+  Frontends
+    Viewer.....................: YES
+    Previewer..................: YES
+    Thumbnailer................: YES
+    Nautilus extension.........: YES
+
+  Backends
+    Comics.....................: YES
+    DJVU.......................: YES
+    DVI........................: YES
+    PDF........................: YES
+    PostScript.................: NO
+    TIFF.......................: YES
+    XPS........................: YES
+
+  Features
+    Gtk-doc reference..........: YES
+    User documentation.........: YES
+    GObject introspection......: YES
+    DBus communication.........: YES
+    Systemd units installation.: /usr/local/lib/systemd/user
+    Keyring integration........: YES
+    GTK+ Unix print ...........: YES
+    Thumbnail cache ...........: YES
+    Multimedia ................: YES
+    Spell checker .............: YES
+    SyncTex ...................: external
+
+  Subprojects
+                      gi-docgen: YES
+                       libhandy: YES
+
+Found ninja-1.10.0 at /usr/bin/ninja

@@ -1,0 +1,4 @@
+[Evince Backend]
+Module=djvudocument
+TypeDescription=DjVu Documents
+MimeType=application/x-ext-djv;application/x-ext-djvu;image/vnd.djvu;

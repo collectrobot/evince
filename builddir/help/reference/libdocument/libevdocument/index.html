@@ -1,0 +1,1286 @@
+<!--
+SPDX-FileCopyrightText: Evince Developers
+
+SPDX-License-Identifier: GPL-2-or-later
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>EvinceDocument &ndash; 3.0</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta charset="utf-8" />
+
+  
+  <meta property="og:type" content="website"/>
+
+  
+
+  
+  <meta property="og:title" content="EvinceDocument-3.0"/>
+  <meta property="og:description" content="Reference for EvinceDocument-3.0"/>
+  <meta name="twitter:title" content="EvinceDocument-3.0"/>
+  <meta name="twitter:description" content="Reference for EvinceDocument-3.0"/>
+
+
+  
+  <meta name="twitter:card" content="summary"/>
+
+  
+  
+  
+  
+
+  <link rel="stylesheet" href="style.css" type="text/css" />
+
+  
+
+  
+  
+  <script src="fzy.js"></script>
+  <script src="search.js"></script>
+  
+  <script src="main.js"></script>
+  <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
+<body>
+  <div id="body-wrapper" tabindex="-1">
+
+    <nav class="sidebar devhelp-hidden">
+      
+      
+      <div class="search section">
+        <form id="search-form" autocomplete="off">
+          <input id="search-input" type="text" name="do-not-autocomplete" placeholder="Click, or press 's' to search" autocomplete="off"/>
+        </form>
+      </div>
+      
+      <div class="section namespace">
+        <h3><a href="index.html">EvinceDocument</a></h3>
+        <p>API Version: 3.0</p>
+        
+        <p>Library Version: 43.alpha</p>
+        
+      </div>
+      
+<div class="section">
+  <h5>Sections</h5>
+  <div class="links">
+  
+
+  
+    <a href="#classes">Classes</a>
+  
+  
+    <a href="#interfaces">Interfaces</a>
+  
+  
+    <a href="#structs">Structs</a>
+  
+  
+  
+    <a href="#aliases">Aliases</a>
+  
+  
+    <a href="#enums">Enumerations</a>
+  
+  
+    <a href="#bitfields">Bitfields</a>
+  
+  
+    <a href="#domains">Error Domains</a>
+  
+  
+  
+    <a href="#functions">Functions</a>
+  
+  
+    <a href="#function_macros">Function Macros</a>
+  
+  
+    <a href="#constants">Constants</a>
+  
+  </div>
+</div>
+
+<div class="section">
+  <h5>Dependencies</h5>
+  <div class="links">
+  
+    <a href="https://docs.gtk.org/gobject/" class="external">GObject</a>
+  
+  </div>
+</div>
+
+
+    </nav>
+
+    <button id="btn-to-top" class="hidden"><span class="up-arrow"></span></button>
+
+    
+<section id="main" class="content">
+  <header>
+    <h3>Namespace</h3>
+    <h1>EvinceDocument &ndash; 3.0</h1>
+
+    <div class="description">
+      <p>Evince is a document viewer for multiple document formats.</p>
+    </div>
+
+    <div class="meta info">
+      <table>
+        <tr><td><em>Version</em></td><td>43.alpha</td></tr>
+        <tr><td><em>Authors</em></td><td>Evince Developers</td></tr>
+        <tr><td><em>License</em></td><td>GPL-2-or-later</td></tr>
+        <tr><td><em>Website</em></td><td><a href="https://wiki.gnome.org/Apps/Evince" class="external">https://wiki.gnome.org/Apps/Evince</a></td></tr>
+        <tr><td><em>Source</em></td><td><a href="https://gitlab.gnome.org/GNOME/evince/" class="external">https://gitlab.gnome.org/GNOME/evince/</a></td></tr>
+      </table>
+    </div>
+
+    <div class="meta build toggle-wrapper">
+      <h4>Build</h4>
+
+      <div class="docblock">
+      <table>
+        <tr><td>C headers</td><td><code></code></td></tr>
+        <tr><td>pkg-config files</td><td><code>evince-document-3.0</code></td></tr>
+      </table>
+      </div>
+    </div>
+  </header>
+
+  
+  <section>
+    <div class="toggle-wrapper">
+      <h4 id="dependencies" style="display:flex;">
+        Dependencies
+        <a href="#dependencies" class="anchor"></a>
+      </h4>
+
+      <div class="docblock">
+        <table>
+        
+          
+        
+          
+        
+          
+          <tr>
+            <td><strong>GObject</strong>&mdash;2.0</td>
+            <td>The base type system library</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><a href="https://docs.gtk.org/gobject/" class="external">Browse documentation</a></td>
+          </tr>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        </table>
+      </div>
+    </div>
+  </section>
+  
+
+  
+
+  
+  <section>
+    <div class="toggle-wrapper">
+      <h4 id="extra" style="display:flex;">
+        Additional documentation
+        <a href="#extra" class="anchor"></a>
+      </h4>
+
+      <div class="docblock">
+        <ul>
+        
+          <li><a href="classes_hierarchy.html">Classes Hierarchy</a></li>
+        
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+
+  
+
+  
+  <section>
+    <div class="toggle-wrapper default-hide">
+      <h4 id="classes" class="section-header" style="display:flex;">
+        Classes
+        <a href="#classes" class="anchor"></a>
+      </h4>
+
+      <div class="docblock">
+        <table style="display:block;">
+          <tbody>
+          
+          <tr class="section-item">
+            <td><a title="Annotation" class="symbol" href="class.Annotation.html">Annotation</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="AnnotationAttachment" class="symbol" href="class.AnnotationAttachment.html">AnnotationAttachment</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="AnnotationText" class="symbol" href="class.AnnotationText.html">AnnotationText</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="AnnotationTextMarkup" class="symbol" href="class.AnnotationTextMarkup.html">AnnotationTextMarkup</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="Attachment" class="symbol" href="class.Attachment.html">Attachment</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="Document" class="symbol" href="class.Document.html">Document</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="FormField" class="symbol" href="class.FormField.html">FormField</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="FormFieldButton" class="symbol" href="class.FormFieldButton.html">FormFieldButton</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="FormFieldChoice" class="symbol" href="class.FormFieldChoice.html">FormFieldChoice</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="FormFieldSignature" class="symbol" href="class.FormFieldSignature.html">FormFieldSignature</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="FormFieldText" class="symbol" href="class.FormFieldText.html">FormFieldText</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="Image" class="symbol" href="class.Image.html">Image</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="Layer" class="symbol" href="class.Layer.html">Layer</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="Link" class="symbol" href="class.Link.html">Link</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="LinkAction" class="symbol" href="class.LinkAction.html">LinkAction</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="LinkDest" class="symbol" href="class.LinkDest.html">LinkDest</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="Media" class="symbol" href="class.Media.html">Media</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="Page" class="symbol" href="class.Page.html">Page</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="RenderContext" class="symbol" href="class.RenderContext.html">RenderContext</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="TransitionEffect" class="symbol" href="class.TransitionEffect.html">TransitionEffect</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  
+  
+  <section>
+    <div class="toggle-wrapper default-hide">
+      <h4 id="interfaces" class="section-header" style="display:flex;">
+        Interfaces
+        <a href="#interfaces" class="anchor"></a>
+      </h4>
+
+      <div class="docblock">
+        <table style="display:block;">
+          <tbody>
+          
+          <tr class="section-item">
+            <td><a title="AnnotationMarkup" class="symbol" href="iface.AnnotationMarkup.html">AnnotationMarkup</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="AsyncRenderer" class="symbol" href="iface.AsyncRenderer.html">AsyncRenderer</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DocumentAnnotations" class="symbol" href="iface.DocumentAnnotations.html">DocumentAnnotations</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DocumentAttachments" class="symbol" href="iface.DocumentAttachments.html">DocumentAttachments</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DocumentFind" class="symbol" href="iface.DocumentFind.html">DocumentFind</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DocumentFonts" class="symbol" href="iface.DocumentFonts.html">DocumentFonts</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DocumentForms" class="symbol" href="iface.DocumentForms.html">DocumentForms</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DocumentImages" class="symbol" href="iface.DocumentImages.html">DocumentImages</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DocumentLayers" class="symbol" href="iface.DocumentLayers.html">DocumentLayers</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DocumentLinks" class="symbol" href="iface.DocumentLinks.html">DocumentLinks</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DocumentMedia" class="symbol" href="iface.DocumentMedia.html">DocumentMedia</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DocumentPrint" class="symbol" href="iface.DocumentPrint.html">DocumentPrint</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DocumentSecurity" class="symbol" href="iface.DocumentSecurity.html">DocumentSecurity</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DocumentText" class="symbol" href="iface.DocumentText.html">DocumentText</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DocumentTransition" class="symbol" href="iface.DocumentTransition.html">DocumentTransition</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="FileExporter" class="symbol" href="iface.FileExporter.html">FileExporter</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="Selection" class="symbol" href="iface.Selection.html">Selection</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  
+  
+  <section>
+    <div class="toggle-wrapper default-hide">
+      <h4 id="structs" class="section-header" style="display:flex;">
+        Structs
+        <a href="#structs" class="anchor"></a>
+      </h4>
+
+      <div class="docblock">
+        <table style="display:block;">
+          <tbody>
+          
+          <tr class="section-item">
+            <td><a title="DocumentBackendInfo" class="symbol" href="struct.DocumentBackendInfo.html">DocumentBackendInfo</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DocumentInfo" class="symbol" href="struct.DocumentInfo.html">DocumentInfo</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DocumentLicense" class="symbol" href="struct.DocumentLicense.html">DocumentLicense</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="FileExporterContext" class="symbol" href="struct.FileExporterContext.html">FileExporterContext</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="FindRectangle" class="symbol" href="struct.FindRectangle.html">FindRectangle</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="Mapping" class="symbol" href="struct.Mapping.html">Mapping</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="MappingList" class="symbol" href="struct.MappingList.html">MappingList</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="Point" class="symbol" href="struct.Point.html">Point</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="Rectangle" class="symbol" href="struct.Rectangle.html">Rectangle</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="SourceLink" class="symbol" href="struct.SourceLink.html">SourceLink</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="TypeInfo" class="symbol" href="struct.TypeInfo.html">TypeInfo</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  <section>
+    <div class="toggle-wrapper default-hide">
+      <h4 id="aliases" class="section-header" style="display:flex;">
+        Aliases
+        <a href="#aliases" class="anchor"></a>
+      </h4>
+
+      <div class="docblock">
+        <table style="display:block;">
+          <tbody>
+          
+          <tr class="section-item">
+            <td><a title="BackendPage" class="symbol" href="alias.BackendPage.html">BackendPage</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="BackendPageDestroyFunc" class="symbol" href="alias.BackendPageDestroyFunc.html">BackendPageDestroyFunc</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  
+  
+  <section>
+    <div class="toggle-wrapper default-hide">
+      <h4 id="enums" class="section-header" style="display:flex;">
+        Enumerations
+        <a href="#enums" class="anchor"></a>
+      </h4>
+
+      <div class="docblock">
+        <table style="display:block;">
+          <tbody>
+          
+          <tr class="section-item">
+            <td><a title="AnnotationsOverMarkup" class="symbol" href="enum.AnnotationsOverMarkup.html">AnnotationsOverMarkup</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="AnnotationTextIcon" class="symbol" href="enum.AnnotationTextIcon.html">AnnotationTextIcon</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="AnnotationTextMarkupType" class="symbol" href="enum.AnnotationTextMarkupType.html">AnnotationTextMarkupType</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="AnnotationType" class="symbol" href="enum.AnnotationType.html">AnnotationType</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="CompressionType" class="symbol" href="enum.CompressionType.html">CompressionType</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DocumentContainsJS" class="symbol" href="enum.DocumentContainsJS.html">DocumentContainsJS</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DocumentLayout" class="symbol" href="enum.DocumentLayout.html">DocumentLayout</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DocumentMode" class="symbol" href="enum.DocumentMode.html">DocumentMode</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="FileExporterFormat" class="symbol" href="enum.FileExporterFormat.html">FileExporterFormat</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="FormFieldButtonType" class="symbol" href="enum.FormFieldButtonType.html">FormFieldButtonType</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="FormFieldChoiceType" class="symbol" href="enum.FormFieldChoiceType.html">FormFieldChoiceType</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="FormFieldTextType" class="symbol" href="enum.FormFieldTextType.html">FormFieldTextType</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="LinkActionType" class="symbol" href="enum.LinkActionType.html">LinkActionType</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="LinkDestType" class="symbol" href="enum.LinkDestType.html">LinkDestType</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="SelectionStyle" class="symbol" href="enum.SelectionStyle.html">SelectionStyle</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="TransitionEffectAlignment" class="symbol" href="enum.TransitionEffectAlignment.html">TransitionEffectAlignment</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="TransitionEffectDirection" class="symbol" href="enum.TransitionEffectDirection.html">TransitionEffectDirection</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="TransitionEffectType" class="symbol" href="enum.TransitionEffectType.html">TransitionEffectType</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  
+  
+  <section>
+    <div class="toggle-wrapper default-hide">
+      <h4 id="bitfields" class="section-header" style="display:flex;">
+        Bitfields
+        <a href="#bitfields" class="anchor"></a>
+      </h4>
+
+      <div class="docblock">
+        <table style="display:block;">
+          <tbody>
+          
+          <tr class="section-item">
+            <td><a title="AnnotationsSaveMask" class="symbol" href="flags.AnnotationsSaveMask.html">AnnotationsSaveMask</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DocumentInfoFields" class="symbol" href="flags.DocumentInfoFields.html">DocumentInfoFields</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DocumentLoadFlags" class="symbol" href="flags.DocumentLoadFlags.html">DocumentLoadFlags</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DocumentPermissions" class="symbol" href="flags.DocumentPermissions.html">DocumentPermissions</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DocumentUIHints" class="symbol" href="flags.DocumentUIHints.html">DocumentUIHints</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="FileExporterCapabilities" class="symbol" href="flags.FileExporterCapabilities.html">FileExporterCapabilities</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="FindOptions" class="symbol" href="flags.FindOptions.html">FindOptions</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  
+  
+  <section>
+    <div class="toggle-wrapper default-hide">
+      <h4 id="domains" class="section-header" style="display:flex;">
+        Error Domains
+        <a href="#domains" class="anchor"></a>
+      </h4>
+
+      <div class="docblock">
+        <table style="display:block;">
+          <tbody>
+          
+          <tr class="section-item">
+            <td><a title="DocumentError" class="symbol" href="error.DocumentError.html">DocumentError</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  <section>
+    <div class="toggle-wrapper default-hide">
+      <h4 id="functions" class="section-header" style="display:flex;">
+        Functions
+        <a href="#functions" class="anchor"></a>
+      </h4>
+
+      <div class="docblock">
+        <table style="display:block;">
+          <tbody>
+          
+          <tr class="section-item">
+            <td><a title="backends_manager_get_all_types_info" class="symbol" href="func.backends_manager_get_all_types_info.html">backends_manager_get_all_types_info</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="backends_manager_get_document" class="symbol" href="func.backends_manager_get_document.html">backends_manager_get_document</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="backends_manager_get_document_module_name" class="symbol" href="func.backends_manager_get_document_module_name.html">backends_manager_get_document_module_name</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="backends_manager_get_document_type_info" class="symbol" href="func.backends_manager_get_document_type_info.html">backends_manager_get_document_type_info</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="file_compress" class="symbol" href="func.file_compress.html">file_compress</a></td>
+            
+            <td class="docblock-summary"><p>Compresses the file at <code>uri</code>.</p>
+<p>If <code>type</code> is <code>EV_COMPRESSION_NONE</code>, it does nothing and returns <code>NULL</code>.</p></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="file_copy_metadata" class="symbol" href="func.file_copy_metadata.html">file_copy_metadata</a></td>
+            
+            <td class="docblock-summary"><p>Performs a <code>g_file_copy_attributes()</code> with <code>G_FILE_COPY_ALL_METADATA</code>
+from <code>from</code> to <code>to</code>.</p></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="file_get_mime_type" class="symbol" href="func.file_get_mime_type.html">file_get_mime_type</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="file_get_mime_type_from_fd" class="symbol" href="func.file_get_mime_type_from_fd.html">file_get_mime_type_from_fd</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="file_is_temp" class="symbol" href="func.file_is_temp.html">file_is_temp</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="file_uncompress" class="symbol" href="func.file_uncompress.html">file_uncompress</a></td>
+            
+            <td class="docblock-summary"><p>Uncompresses the file at <code>uri</code>.</p></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="get_locale_dir" class="symbol" href="func.get_locale_dir.html">get_locale_dir</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="init" class="symbol" href="func.init.html">init</a></td>
+            
+            <td class="docblock-summary"><p>Initializes the evince document library, and binds the evince
+gettext&nbsp;domain.</p></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="mkdtemp" class="symbol" href="func.mkdtemp.html">mkdtemp</a></td>
+            
+            <td class="docblock-summary"><p>Creates a temp directory in the evince temp&nbsp;directory.</p></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="mkstemp" class="symbol" href="func.mkstemp.html">mkstemp</a></td>
+            
+            <td class="docblock-summary"><p>Creates a temp file in the evince temp&nbsp;directory.</p></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="mkstemp_file" class="symbol" href="func.mkstemp_file.html">mkstemp_file</a></td>
+            
+            <td class="docblock-summary"><p>Creates a temp <code>GFile</code> in the evince temp directory. See <code>ev_mkstemp()</code> for more&nbsp;information.</p></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="rect_cmp" class="symbol" href="func.rect_cmp.html">rect_cmp</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="should_use_portal" class="symbol" href="func.should_use_portal.html">should_use_portal</a></td>
+            
+            <td class="docblock-summary"><p>Checks whether evince should use the&nbsp;portal.</p></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="shutdown" class="symbol" href="func.shutdown.html">shutdown</a></td>
+            
+            <td class="docblock-summary"><p>Shuts the evince document library&nbsp;down.</p></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="tmp_file_unlink" class="symbol" href="func.tmp_file_unlink.html">tmp_file_unlink</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="tmp_filename_unlink" class="symbol" href="func.tmp_filename_unlink.html">tmp_filename_unlink</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="tmp_uri_unlink" class="symbol" href="func.tmp_uri_unlink.html">tmp_uri_unlink</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="xfer_uri_simple" class="symbol" href="func.xfer_uri_simple.html">xfer_uri_simple</a></td>
+            
+            <td class="docblock-summary"><p>Performs a <code>g_file_copy()</code> from <code>from</code> to <code>to</code>.</p></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="xmp_parse" class="symbol" href="func.xmp_parse.html">xmp_parse</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  
+  
+  <section>
+    <div class="toggle-wrapper default-hide">
+      <h4 id="function_macros" class="section-header" style="display:flex;">
+        Function Macros
+        <a href="#function_macros" class="anchor"></a>
+      </h4>
+
+      <div class="docblock">
+        <table style="display:block;">
+          <tbody>
+          
+          <tr class="section-item">
+            <td><a title="ANNOTATION_MARKUP_IFACE" class="symbol" href="func.ANNOTATION_MARKUP_IFACE.html">ANNOTATION_MARKUP_IFACE</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="ASYNC_RENDERER_IFACE" class="symbol" href="func.ASYNC_RENDERER_IFACE.html">ASYNC_RENDERER_IFACE</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="BACKEND_IMPLEMENT_INTERFACE" class="symbol" href="func.BACKEND_IMPLEMENT_INTERFACE.html">BACKEND_IMPLEMENT_INTERFACE</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="BACKEND_REGISTER" class="symbol" href="func.BACKEND_REGISTER.html">BACKEND_REGISTER</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="BACKEND_REGISTER_WITH_CODE" class="symbol" href="func.BACKEND_REGISTER_WITH_CODE.html">BACKEND_REGISTER_WITH_CODE</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="CHECK_VERSION" class="symbol" href="func.CHECK_VERSION.html">CHECK_VERSION</a></td>
+            
+            <td class="docblock-summary"><p>Macro to check the library version at compile time.
+It returns <literal>1</literal> if the version of <span class="caps">EV</span> is greater or
+equal to the required one, and <literal>0</literal> otherwise.</p></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DEPRECATED_FOR" class="symbol" href="func.DEPRECATED_FOR.html">DEPRECATED_FOR</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DOCUMENT_ANNOTATIONS_IFACE" class="symbol" href="func.DOCUMENT_ANNOTATIONS_IFACE.html">DOCUMENT_ANNOTATIONS_IFACE</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DOCUMENT_ATTACHMENTS_IFACE" class="symbol" href="func.DOCUMENT_ATTACHMENTS_IFACE.html">DOCUMENT_ATTACHMENTS_IFACE</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DOCUMENT_FIND_IFACE" class="symbol" href="func.DOCUMENT_FIND_IFACE.html">DOCUMENT_FIND_IFACE</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DOCUMENT_FONTS_IFACE" class="symbol" href="func.DOCUMENT_FONTS_IFACE.html">DOCUMENT_FONTS_IFACE</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DOCUMENT_FORMS_IFACE" class="symbol" href="func.DOCUMENT_FORMS_IFACE.html">DOCUMENT_FORMS_IFACE</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DOCUMENT_IMAGES_IFACE" class="symbol" href="func.DOCUMENT_IMAGES_IFACE.html">DOCUMENT_IMAGES_IFACE</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DOCUMENT_LAYERS_IFACE" class="symbol" href="func.DOCUMENT_LAYERS_IFACE.html">DOCUMENT_LAYERS_IFACE</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DOCUMENT_LINKS_IFACE" class="symbol" href="func.DOCUMENT_LINKS_IFACE.html">DOCUMENT_LINKS_IFACE</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DOCUMENT_MEDIA_IFACE" class="symbol" href="func.DOCUMENT_MEDIA_IFACE.html">DOCUMENT_MEDIA_IFACE</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DOCUMENT_PRINT_IFACE" class="symbol" href="func.DOCUMENT_PRINT_IFACE.html">DOCUMENT_PRINT_IFACE</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DOCUMENT_SECURITY_IFACE" class="symbol" href="func.DOCUMENT_SECURITY_IFACE.html">DOCUMENT_SECURITY_IFACE</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DOCUMENT_TEXT_IFACE" class="symbol" href="func.DOCUMENT_TEXT_IFACE.html">DOCUMENT_TEXT_IFACE</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="DOCUMENT_TRANSITION_IFACE" class="symbol" href="func.DOCUMENT_TRANSITION_IFACE.html">DOCUMENT_TRANSITION_IFACE</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="FILE_EXPORTER_IFACE" class="symbol" href="func.FILE_EXPORTER_IFACE.html">FILE_EXPORTER_IFACE</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="SELECTION_IFACE" class="symbol" href="func.SELECTION_IFACE.html">SELECTION_IFACE</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          <tr class="section-item">
+            <td><a title="UNAVAILABLE" class="symbol" href="func.UNAVAILABLE.html">UNAVAILABLE</a></td>
+            
+            <td class="docblock-summary"></td>
+            
+          </tr>
+          
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  
+  
+  <section>
+    <div class="toggle-wrapper default-hide">
+      <h4 id="constants" class="section-header" style="display:flex;">
+        Constants
+        <a href="#constants" class="anchor"></a>
+      </h4>
+
+      <div class="docblock">
+        <table style="display:block;">
+          <tbody>
+          
+          <tr class="section-item">
+            <td><a title="MAJOR_VERSION" class="symbol" href="const.MAJOR_VERSION.html">MAJOR_VERSION</a></td>
+            
+            <td class="docblock-summary"><p>The major version number of the <span class="caps">EV</span> library
+(e.g. in version 3.1.4 this is&nbsp;3).</p></td>
+            
+          </tr>
+          
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  
+</section>
+
+
+    
+
+    <section id="search" class="content hidden"></section>
+
+    <footer>
+    
+    </footer>
+  </div>
+</body>
+</html>

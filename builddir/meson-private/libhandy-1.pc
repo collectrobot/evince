@@ -1,0 +1,10 @@
+prefix=/usr/local
+libdir=${prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include
+
+Name: Handy
+Description: Handy Mobile widgets
+Version: 1.5.0
+Requires: gtk+-3.0
+Libs: -L${prefix}/lib/x86_64-linux-gnu  -lhandy-1
+Cflags: -I${includedir}/libhandy-1
